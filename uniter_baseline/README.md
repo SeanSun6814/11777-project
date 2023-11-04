@@ -1,5 +1,7 @@
 ## Steps to reproduce
 
+First, `git clone https://github.com/ajd12342/why-winoground-hard.git`, then download winoground dataset and place the winoground images under `why-winoground-hard/dataset/images`
+
 ### Generate RoI features
 The [codebase](https://github.com/ChenRocks/UNITER/tree/master) is rather old and currently no information is released for winoground. so we have to piece together the information ourselves. All of the following is tested on `AWS g4dn.xlarge` in Oct 2023 using the Deep Learning base AMI.
 
